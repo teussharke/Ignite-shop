@@ -13,10 +13,10 @@ import Stripe from "stripe"
 
 interface HomeProps {
   products: {
-    id: string
-    name: string
-    imageUrl: string
-    price: number
+    id: string;
+    name: string;
+    imageUrl: string;
+    price: string;
   }[]
 }
 
